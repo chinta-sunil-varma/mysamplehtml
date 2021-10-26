@@ -1,0 +1,139 @@
+body
+{
+    background-color:#ced4da ;
+    
+}
+
+
+#hori1
+{
+    background-color: red;
+    width: 75%;
+    size: 3px;
+}
+.hori2
+{
+    background-color: seagreen;
+    size:3px;
+}
+
+
+
+
+#mainheading::first-letter
+{
+    color: #7f5539;
+    font-size: larger;
+}
+.navi1
+{
+    background-color: #219ebc;
+    position: sticky;
+    top: 0px;
+    left: 0;
+}
+
+
+.navi1>button
+{
+ border-radius: 30px;
+ margin: 5px 5px 5px 5px;
+}
+
+main p
+{
+    text-indent: 30px;
+    font-family: sans-serif;
+    font-size: 110%;
+    margin-bottom: 40px;
+}
+
+.o1  li
+{
+    font-size: 3 rem;
+
+    
+}
+
+.o1 li a
+{
+    text-decoration: none;
+}
+
+.o1 li a:hover
+{
+    color:sienna;
+}
+
+.figcaps
+{
+    padding-left: 200px;
+    color: rgb(145, 21, 21);
+    margin-top: 20px;
+}
+footer
+{
+    background-color: rgb(135, 206, 235);
+    opacity: 0.5;
+}
+
+#table::first-letter
+{
+     font-size: 40px;
+     color: rgb(17, 70, 119);
+}
+#table
+{
+    font-variant: small-caps;
+
+}
+body
+{
+    border: none;
+}
+#button1:hover
+{
+    background-color: tan;
+}
+.decor1
+{
+    display: inline-block;
+    background-color: rgb(238, 130, 238,0.3);
+    height: 35px;
+    width: 35px;
+    padding-left: 250px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    
+
+}
+
+.decor2
+{
+    display: inline-block;
+    background-color: rgb(14, 58, 124);
+    height: 35px;
+    width: 35px;
+
+}
+html
+{
+    font-size: 20px;
+}
+#maind
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+#table:hover
+{
+ color: rosybrown;
+ transition:  1s;
+}
+
+ .img1
+{
+    margin-bottom: 10px;
+} 

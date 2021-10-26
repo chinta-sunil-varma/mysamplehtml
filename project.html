@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section div
+        {
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: crimson;
+            transition: 3s ;
+        }
+        section:hover div
+        {
+             background-color: cornflowerblue;
+             
+             transform-origin:top left;
+             /* transform: rotateY(2turn); */
+             transform: translate(200px,0) rotateY(1turn);
+        }
+        #sunil div:nth-of-type(odd)
+        {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <section id="sunil">
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </section>
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </section>
+
+
+</body>
+</html>
